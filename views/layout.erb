@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sinatra static HTML</title>
+    <link rel='stylesheet' href= '/style/main.css'>
+    <script src ='/scripts/app.js'></script>
+  </head>
+  <body background =http://store.hbo.com/curb-your-enthusiasm/index.php?v=hbo_shows_curb-your-enthusiasm>
+
+    <header>
+      <h1 class= 'nameofco'>Larry Day-Vid</h1>
+      <em>Showing off Larry Day-Vid's awesomeness and things....</em>
+      <hr>
+    </header>
+
+    <nav class="navbar">
+      <ul>
+        <li class="infonav">HOME</li>
+        <li class="infonav">ABOUT</li>
+        <li class="infonav">CONTACT</li>
+      </ul>
+    </nav>
+    <hr>
+
+<%= yield %>
+
+
+
+<footer>
+  <hr>
+  &copy; 2015. Larry Day-Vid Co. & Embedded Ruby (ERB)
+</footer>
+
+</body>
+</html>
